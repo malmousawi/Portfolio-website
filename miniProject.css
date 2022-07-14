@@ -1,0 +1,340 @@
+
+
+/* Gives padding to the header attributes and displays it in a linear fashion. */
+header nav li {
+    display: inline;
+    padding: 2%;
+    font-family: 'Arial', 'sans-serif';
+    
+}
+
+body{
+    margin: 0;
+    background-color: #f1f1f1;
+  
+}
+
+
+/* Gives padding to the header and displays it in a block fashion. */
+header,
+footer {
+    display: block;
+    background-color: #0b2545;
+    padding: 1.5%;
+    text-align: center;   
+    
+}
+header .nameLink{
+    float: left;
+    display: inline;
+    width: 21.875rem;
+    margin-top: -0.1%;
+    margin-left: -3%;
+    font-size: 1.25rem;
+
+}
+
+header .otherLink{
+    margin-right: -14%;
+}
+
+/* Gives the link a white colour and removes the underline from the link. */
+header a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+header a:hover{
+    color: grey;
+
+}
+/* Gives the visited link a white colour. */
+header a:visited{
+    color: white;
+}
+/* Gives the background an image in the index.html and also alligns the text in the center eith padding. */
+.welcome{
+    background-image: url("sky-34536.png");
+    text-align: center;
+    padding: 22%;
+    
+}
+button{
+    padding: 2%;
+}
+
+/* changes font size,family and colour of text */
+.welcome h1 {
+    font-size: 4em;
+    font-family: 'Arial', 'sans-serif';
+    color: #0b2545;
+
+    
+}
+.symbols{
+    text-align: center;
+    stroke-width: 0.0938rem;
+}
+
+/* styles the login button on index.html by giving it a border,border-radius, transistion time and so on. */
+button{
+    padding: 0.8125rem;
+    border: 0.1875rem solid #0b2545;
+    border-radius: 10%;
+    font-size: 1.25rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: -0.625rem;
+    width: 6.25rem;
+    background-color: white;
+}
+
+
+button:hover{
+    background-color: #0b2545;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Arial', 'sans-serif';
+    margin-top: -3%;
+
+}
+.intro{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 3.125rem;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.occupation{
+    margin-top: 1%;
+    font-size: 1.25rem;
+    margin-left: 5%;
+
+}
+p{
+    width: 50%;
+    font-family: 'Arial', 'sans-serif';
+}
+.aboutMe{
+    margin-left: 3%;
+    position: relative;
+}
+.aboutmeHeader{
+    text-align: center;
+    margin-top: -7%;
+}
+.icon{
+    margin-top: -3%;
+}
+
+.myInterests{
+    margin-top: 6%;
+    border: 0.1875rem solid #0b2545;
+    padding: 2%;
+    border-radius: 1.5625rem;
+    margin-left: 8%;
+}
+.main{
+    
+    background-color: #f1f1f1;
+}
+
+.photo img{
+    position: absolute;
+    right: 9.375rem;
+    top: 5rem;
+    border-radius: 55%;
+   
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td,
+th {
+    font-size: 1.2em;
+    padding: 2%;
+    border-top: 0.0625rem solid black;
+}
+
+
+
+/*make first column of table bold*/
+#education td:nth-child(1) {
+    font-weight: bold;
+    
+}
+#contact td:nth-child(1) {
+    font-weight: bold;
+}
+
+#contact{
+    margin-top: 10%;
+}
+
+.contactHeader{
+    text-align: center;
+    margin-top: 2%;
+}
+#education, #contact{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 1.25rem;
+}
+#education h2, #contact h2{
+    margin-top: 0.5%;
+}
+#education{
+    margin-top: 10%;
+}
+.educationHeader{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#skills h2{
+    margin-top: -10%;
+}
+#skills{
+    width: 31.25rem;
+    margin: 3.75rem auto;
+    color: black;
+    font-family: 'Arial', 'sans-serif';
+    margin-top: 10%;
+}
+.skillsHeader{
+    text-align: center;
+    margin-top: 2%;
+}
+#skills li{
+    margin: 1.25rem 0;
+    list-style-type: none;
+}
+
+.portfolioHeader{
+    text-align: center;
+    margin-top: 3%;
+}
+.sniperBot{
+    margin-left: 30%;
+}
+.portfolioPara{
+    border: 0.1875rem solid #0b2545;
+    padding: 3%;
+    border-radius: 1.5625rem;
+    margin-left: 22%;
+}
+img{
+    padding: 1%;
+}
+
+
+/* progress bar inspired by youtube tutorial at https://www.youtube.com/watch?v=3l4TQyYgOg4 */
+.bar{
+    background: #353b48;
+    display: block;
+    height: 0.125rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.1875rem;
+    overflow: hidden;
+    box-shadow: 0 0 0.625rem black;
+}
+.bar span{
+    height: 0.125rem;
+    float: left;
+    background: aqua;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 75%;
+    animation: css 2s;
+}
+.java{
+    width: 70%;
+    animation: java 2s;
+}
+.python{
+    width: 60%;
+    animation: python 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+/* positioning and styling the table used in experience.html */
+#experience table td,
+th {
+    border-top: none;
+    border-right: 0.0625rem solid black;
+    
+}
+#experience{
+    font-family: 'Arial', 'sans-serif';
+    margin-top: 10%;
+    
+}
+
+.experienceHeader{
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Styling and positioning the footer for each page  */
+footer {
+    padding: 0.5%;
+    text-align: center;
+    display: block;
+    background-color: #0b2545;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.125rem;
+    width: 100%;
+    border-top: 0.0625rem solid white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial', 'sans-serif';
+    bottom:0rem;
+  }
+
+  .loginButton{
+      padding: 2%;
+  }
